@@ -27,7 +27,7 @@ const HomePage = () => {
       <Header />
       <Container className={classes.container}>
         <Carousel />
-        <Intro />
+        {/* <Intro /> */}
         <CourseList />
         <SuggestedCourses />
       </Container>
