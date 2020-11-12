@@ -18,8 +18,8 @@ const HomePage = () => {
   return (
     <React.Fragment>
       <Topbar />
-      <Carousel />
       <Navbar />
+      <Carousel />
       <Intro />
       <CourseList />
       <CourseSuggest />

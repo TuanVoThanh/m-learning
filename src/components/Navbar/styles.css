@@ -21,6 +21,7 @@
   display: flex;
   margin: auto 40px;
   cursor: pointer;
+  z-index: 1000;
 }
 
 /* .categories > p {
@@ -48,6 +49,9 @@
 }
 .MuiMenuItem-root > label{
   cursor: pointer;
+}
+.makeStyles-root-3{
+  background-color: unset !important;
 }
 
 /* Navbar Search */

@@ -1,6 +1,6 @@
 @import '../../assets/css/_default.css';
 
 /* On this page */
-.hide{
-  visibility: hidden;
+i > .icon {
+  box-sizing: content-box;
 }

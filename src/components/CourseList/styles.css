@@ -1,4 +1,3 @@
-
 .courseList__container {
   width: 1440px;
   margin: 0 auto;
@@ -27,48 +26,6 @@
   width: 1440px;
   height: 418px;
   background-color: var(--c-shade);
-}
-.MuiAppBar-colorDefault{
-  background-color: var(--c-shade);
-}
-.MuiTab-wrapper {
-  text-transform: capitalize;
-}
-
-.jss5 {
-  background-color: var(--c-primary) !important;
-}
-
-.jss8 {
-  background-color: var(--c-shade);
-}
-
-.PrivateTabIndicator-colorPrimary-5 {
-  background-color: var(--c-primary) !important;
-}
-
-.PrivateTabIndicator-colorPrimary-5 {
-  border-bottom: 2px solid var(--c-primary) !important;
-}
-
-.MuiTabs-root {
-  width: 1292px;
-  margin: 0 auto;
-  background-color: transparent;
-}
-
-
-.makeStyles-root-3 {
-  background-color: var(--c-shade) !important;
-}
-
-.MuiPaper-elevation4 {
-  box-shadow: 0 0 black !important;
-}
-
-.MuiAppBar-colorDefault {
-  background-color: var(--c-grey);
-  border-bottom: 1px solid var(--c-grey);
 }
 
 /* .courseList__tab {
@@ -105,4 +62,31 @@
   display: flex;
   justify-content: space-between;
   /* background-color: grey; */
+}
+
+/* Material UI */
+.PrivateTabIndicator-colorPrimary-7 {
+  background-color: var(--c-primary) !important;
+}
+
+.MuiTab-wrapper {
+  text-transform: capitalize;
+}
+
+.MuiTabs-root {
+  width: 1292px;
+  margin: 0 auto;
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: 0 0 black !important;
+}
+
+.MuiAppBar-colorDefault {
+  background-color: var(--c-grey);
+  border-bottom: 1px solid var(--c-grey);
+}
+
+.makeStyles-root-5{
+  background-color: #f5f5f5 !important;
 }

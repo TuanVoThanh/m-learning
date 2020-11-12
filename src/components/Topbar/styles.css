@@ -1,15 +1,19 @@
-.topbar {
-  background: var(--c-gradient);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  letter-spacing: 0.25px;
-  padding: 0 18px;
-  height: 36px;
+.MuiAlert-icon{
+    visibility: hidden;
 }
-
-.iconRight:hover{
-    background-color: var(--c-primary);
-    border-radius: 999px;
-    cursor: pointer;
+.MuiAlert-root{
+    background: var(--c-gradient) !important;
+    border-radius: 0 !important;
+}
+.MuiAlert-action{
+    margin-left: unset !important;
+}
+.MuiPaper-root{
+    justify-content: space-between;
+}
+.MuiSvgIcon-root > path {
+    color: white;
+}
+.MuiCollapse-container{
+    transition: unset;
 }

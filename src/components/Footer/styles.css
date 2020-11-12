@@ -41,6 +41,7 @@
 }
 .footer__container_below_col > p:hover {
   color: var(--tc-secondary);
+  transition: 0.3s;
 }
 .language {
   width: 120px;
@@ -52,6 +53,11 @@
   padding-top: 8px;
   padding-left: 8px;
   cursor: pointer;
+}
+
+.language:hover{
+  background-color: #f5f5f5;
+
 }
 
 .iconWorld {

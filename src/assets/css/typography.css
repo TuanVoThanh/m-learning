@@ -12,3 +12,4 @@ semibold{font-weight: var(--fw-semibold);}
 .label{font-size: var(--fs-label);}
 .tiny{font-size: var(--fs-tiny);}
 .semibold{font-weight: var(--fw-semibold);}
+.textCenter{text-align: center;}

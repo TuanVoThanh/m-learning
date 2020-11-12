@@ -1,0 +1,6 @@
+@import "../../assets/css/_default.css";
+
+/* On this page */
+i > .icon {
+  box-sizing: content-box;
+}
