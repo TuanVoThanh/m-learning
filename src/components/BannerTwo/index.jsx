@@ -1,30 +1,24 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
-import { styles } from "./styles";
-import imgInstructor from "../../assets/img/imgInstructor.png";
-
-const useStyles = makeStyles(styles);
+import "./styles.css";
+import imgBannerTwo from "../../assets/img/imgBannerTwo.png";
 
 const BannerTwo = () => {
-  const classes = useStyles();
   return (
-    <div className={classes.root}>
-      <div className={classes.container}>
-        {/* Content */}
-        <div className={classes.contentWrapper}>
-          <div className={classes.content}>
-            <div className={classes.title}>Become an instructor</div>
-            <div className={classes.text}>
-              Top instructors from around the world teach millions of students
-              on M-learning. We provide the tools and skills to teach what you
-              love.
-            </div>
-            <div className={classes.button}>Start teaching today</div>
-          </div>
+    <div className="bannerTwo">
+      <div className="bannerTwo_background">
+        <div className="bannerTwo_background_grey"></div>
+      </div>
+      <div className="bannerTwo_container">
+        <div className="bannerTwo__text">
+          <h4>Become an instructor</h4>
+          <p className="m-3">
+            Top instructors from around the world teach millions of students on
+            M-learning. We provide the tools and skills to teach what you love.
+          </p>
+          <button className="btnSecondary long">Start teaching today</button>
         </div>
-        {/* Image */}
-        <div className={classes.imgWrapper}>
-          <img className={classes.imgInstructor} src={imgInstructor}></img>
+        <div className="bannerTwo__image">
+          <img src={imgBannerTwo} alt="bannerTwo" />
         </div>
       </div>
     </div>

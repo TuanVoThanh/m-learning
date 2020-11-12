@@ -1,43 +1,35 @@
 import React from "react";
-import { Container, Typography } from "@material-ui/core";
-import Alert from "../../components/Alert";
-import { makeStyles } from "@material-ui/core/styles";
-import { styles } from "./styles";
-
-// sections for this page
-import Header from "../../components/Header";
-import Carousel from "../../components/Carousel";
-import Intro from "../../components/Intro";
-import CourseList from "../../components/CourseList";
-import SuggestedCourses from "../../components/SuggestedCourses";
 import BannerOne from "../../components/BannerOne";
-import TopCategories from "../../components/TopCategories";
-import Partners from "../../components/Partners";
 import BannerTwo from "../../components/BannerTwo";
+import Bottombar from "../../components/Bottombar";
+import Carousel from "../../components/Carousel";
+import CourseList from "../../components/CourseList";
+import CourseSuggest from "../../components/CourseSuggest";
+import ExploreNow from "../../components/ExploreNow";
 import Footer from "../../components/Footer";
-
-const useStyles = makeStyles(styles);
+import Intro from "../../components/Intro";
+import Navbar from "../../components/Navbar";
+import Partners from "../../components/Partners";
+import Topbar from "../../components/Topbar";
+import TopCategories from "../../components/TopCategories";
+import './styles.css';
 
 const HomePage = () => {
-  const classes = useStyles();
-
   return (
     <React.Fragment>
-      <Alert />
-      <Header />
-      <Container className={classes.container}>
-        <Carousel />
-        {/* <Intro /> */}
-        <CourseList />
-        <SuggestedCourses />
-      </Container>
+      <Topbar />
+      <Carousel />
+      <Navbar />
+      <Intro />
+      <CourseList />
+      <CourseSuggest />
+      <ExploreNow />
       <BannerOne />
-      <Container className={classes.container}>
-        <TopCategories />
-        <Partners />
-      </Container>
+      <TopCategories />
+      <Partners />
       <BannerTwo />
       <Footer />
+      <Bottombar />
     </React.Fragment>
   );
 };

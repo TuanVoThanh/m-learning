@@ -1,0 +1,13 @@
+/* Colors */
+.black{color: black;}
+.white{color: white;}
+.grey{color: var(--c-grey);}
+.shade{color: var(--c-shade);}
+
+.c-primary{color: var(--c-primary);}
+.c-primary-hover{color: var(--c-primary-hover)}
+.c-gradient{color: var(--c-gradient);}
+
+.tc-primary{color: var(--tc-primary);}
+.tc-secondary{color: var(--tc-secondary);}
+.tc-highlight{color: var(--tc-highlight);}

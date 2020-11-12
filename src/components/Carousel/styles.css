@@ -1,0 +1,35 @@
+.carousel {
+  display: flex;
+}
+
+.carousel__frame {
+  position: relative;
+  margin: 0 auto;
+}
+
+.carousel__frame_image {
+  vertical-align: bottom;
+}
+
+.carousel__frame_text {
+  position: absolute;
+  top: 98px;
+  left: 174px;
+  width: 534px;
+  height: 204px;
+}
+
+.carousel__frame_text_title {
+  color: var(--tc-primary);
+}
+
+.carousel__frame_text_decor {
+  font-family: "Pacifico", cursive;
+  font-size: var(--fs-h1);
+  color: var(--c-primary);
+}
+
+.carousel__frame_text_description {
+  color: var(--tc-secondary);
+  margin-bottom: var(--m-3);
+}

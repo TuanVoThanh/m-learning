@@ -1,0 +1,15 @@
+/* All */
+* {
+    font-family: "Open Sans", sans-serif;
+    font-size: var(--fs-p);
+    font-weight: var(--fw-normal);
+    color: var(--tc-primary);
+    padding: 0;
+    margin: 0;
+    border: none;
+  }
+  
+  /* All hover */
+  *:focus {
+    outline: none;
+  }

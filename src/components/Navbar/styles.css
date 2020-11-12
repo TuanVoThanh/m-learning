@@ -1,0 +1,103 @@
+.navbar {
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 48px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.02),
+    0px 1px 12px rgba(0, 0, 0, 0.12);
+}
+
+/* Navbar Left */
+.nbLeft {
+  display: flex;
+}
+
+.nbLeft > .logo {
+  margin: 16px 0;
+  cursor: pointer;
+}
+
+.nbLeft > .categories {
+  display: flex;
+  margin: auto 40px;
+  cursor: pointer;
+}
+
+/* .categories > p {
+  display: inline;
+  margin-left: 8px;
+  margin-right: 8px;
+  color: var(--tc-secondary);
+}
+
+.categories > p:hover {
+  color: var(--tc-primary);
+}
+ */
+
+.MuiButton-label > p {
+  margin-left: 12px;
+  text-transform: capitalize;
+  color: var(--tc-secondary);
+}
+.MuiButton-label > p:hover {
+  color: var(--tc-primary);
+}
+.MuiMenuItem-root{
+  min-height: 20px;
+}
+.MuiMenuItem-root > label{
+  cursor: pointer;
+}
+
+/* Navbar Search */
+.nbSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  padding: 0 12px;
+  width: 100%;
+  height: 48px;
+  border-radius: 40px;
+  border: 1px solid var(--c-shade);
+}
+
+.nbSearch > i > .icon {
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 6px;
+  vertical-align: middle;
+}
+
+.nbSearch > i > .icon:hover {
+  background-color: var(--c-shade);
+}
+
+.nbSearch > input {
+  font-size: 14px;
+  color: var(--tc-secondary);
+  border: none;
+}
+
+/* Navbar Right */
+.nbRight {
+  display: flex;
+  align-items: center;
+}
+
+.nbRight > i > .icon {
+  border-radius: 999px;
+  margin-left: 40px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.nbRight > i > .icon:hover {
+  background-color: var(--c-shade);
+}
+
+.mlr {
+  margin-left: var(--m-3);
+  margin-right: var(--m-3);
+}

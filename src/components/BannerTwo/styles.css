@@ -1,0 +1,30 @@
+.bannerTwo {
+  margin-top: 80px;
+  height: 400px;
+}
+.bannerTwo_container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 1292px;
+  margin: 0 auto;
+  transform: translateY(-360px);
+}
+.bannerTwo__text {
+  display: block;
+  align-self: center;
+  text-align: center;
+  width: 400px;
+}
+.bannerTwo__image {
+  width: 376px;
+  height: 400px;
+}
+.bannerTwo__image > img {
+  width: 100%;
+  height: 100%;
+}
+.bannerTwo_background_grey{
+  background-color: var(--c-shade);
+  height: 320px;
+  align-items: center;
+}

@@ -1,0 +1,17 @@
+.partners{
+    height: 168px;
+    border-top: 1px solid var(--c-shade);
+    margin-top: 60px;
+}
+
+.partners > h5{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.partners > img{
+    display: block;
+    margin: 0 auto;
+}

@@ -1,0 +1,27 @@
+.courseSuggest__container {
+  width: 1292px;
+  margin: 0 auto;
+}
+
+.courseSuggest_text {
+  padding-top: var(--p-3);
+  margin-top: var(--m-9);
+  margin-bottom: var(--m-6);
+}
+
+.courseSuggest__text_title {
+  font-weight: var(--fw-semibold);
+}
+
+/* Main Courses */
+.courseSuggest__background {
+  height: 418px;
+}
+
+.courseSuggest__content {
+  height: 286px;
+  margin: var(--m-9) 0;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: grey; */
+}

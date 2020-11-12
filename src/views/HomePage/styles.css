@@ -1,0 +1,12 @@
+@import '../../assets/css/_default.css';
+
+/* On this page */
+.carousel{
+  transform: translateY(72px);
+}
+.navbar{
+  transform: translateY(-400px);
+}
+.hide{
+  visibility: hidden;
+}

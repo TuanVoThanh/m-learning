@@ -1,0 +1,36 @@
+.exploreNow__container{
+    width: 1440px;
+    height: 236px;
+    background-color: var(--c-shade);
+    margin: 0 auto;
+    display: flex;
+}
+
+.exploreNow__image{
+    margin-left: 130px;
+    margin-right: 130px;
+    align-self: center;
+}
+
+.exploreNow__image > img{width: 180px}
+
+.exploreNow__text{
+    align-self: center;
+    margin-right: 130px;
+}
+
+.exploreNow__text_title{
+    font-weight: var(--fw-semibold);
+}
+
+.exploreNow__text_desc{
+    color: var(--tc-secondary);
+    margin: var(--m-3) 0;
+}
+
+.btnExploreNow{
+    color: var(--tc-highlight);
+    font-weight: var(--fw-semibold);
+    display: flex;
+    cursor: pointer;
+}

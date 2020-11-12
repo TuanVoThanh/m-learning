@@ -1,0 +1,96 @@
+.courseList {
+}
+
+.courseList__container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.courseList_text {
+  width: 1292px;
+  padding-top: var(--p-3);
+  margin-top: var(--m-6);
+  margin-bottom: var(--m-6);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.courseList__text_title {
+  font-weight: var(--fw-semibold);
+}
+
+.courseList__text_description {
+  color: var(--tc-secondary);
+}
+
+/* Main Courses */
+.courseList__background {
+  width: 1440px;
+  height: 418px;
+  background-color: var(--c-shade);
+}
+
+.MuiTab-wrapper {
+  text-transform: capitalize;
+}
+
+.PrivateTabIndicator-colorPrimary-5 {
+  background-color: var(--c-primary) !important;
+  border-bottom: 2px solid var(--c-primary);
+}
+
+.MuiTabs-root {
+  width: 1292px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+.makeStyles-root-3 {
+  background-color: var(--c-shade) !important;
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: 0 0 black !important;
+}
+
+.MuiAppBar-colorDefault {
+  background-color: var(--c-grey);
+  border-bottom: 1px solid var(--c-grey);
+}
+
+/* .courseList__tab {
+  width: 1292px;
+  height: 40px;
+  border-bottom: 1px solid var(--c-grey);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.courseList__tab_frame {
+  height: 32px;
+  padding: 0 24px;
+  display: inline-flex;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.lineActived {
+  border-bottom: 2px solid var(--c-primary);
+}
+
+.courseList__tab_title {
+  color: var(--tc-secondary);
+} */
+
+.courseList__content {
+  width: 1292px;
+  height: 286px;
+  margin: 0 auto;
+  margin-top: var(--m-6);
+  margin-bottom: var(--m-6);
+  display: flex;
+  justify-content: space-between;
+  /* background-color: grey; */
+}
