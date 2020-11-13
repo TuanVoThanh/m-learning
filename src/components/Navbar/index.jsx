@@ -4,6 +4,13 @@ import { ReactComponent as Logo } from "../../assets/svg/m_learning_logo.svg";
 import { ReactComponent as IconSearch } from "../../assets/svg/mdi_search.svg";
 import { ReactComponent as IconCart } from "../../assets/svg/mdi_shopping_cart.svg";
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 import MenuListComposition from "./MenuListComposition";
 
 const Navbar = () => {
@@ -11,7 +18,11 @@ const Navbar = () => {
     <div className="navbar">
       {/* Navbar Left */}
       <div className="nbLeft">
-        <Logo className="logo" />
+        <Route>
+          <Link to="/">
+            <Logo className="logo" />
+          </Link>
+        </Route>
         <div className="categories">
           <MenuListComposition className="nbCategories" />
         </div>
@@ -24,12 +35,19 @@ const Navbar = () => {
         </i>
       </form>
       {/* Group Right */}
+
       <div className="nbRight">
-        <i>
-          <IconCart className="icon" />
-        </i>
-        <button className="btnSecondary mlr">Sign in</button>
-        <button className="btnPrimary">Sign up</button>
+        <Route>
+          <Link to="/checkout">
+            <IconCart className="iconCart" />
+          </Link>
+          <Link to="/signin">
+            <button className="btnSecondary mlr">Sign in</button>
+          </Link>
+          <Link to="/signup">
+            <button className="btnPrimary">Sign up</button>
+          </Link>
+        </Route>
       </div>
     </div>
   );

@@ -12,7 +12,7 @@
   display: flex;
 }
 
-.nbLeft > .logo {
+.logo {
   margin: 16px 0;
   cursor: pointer;
 }
@@ -23,18 +23,6 @@
   cursor: pointer;
   z-index: 1000;
 }
-
-/* .categories > p {
-  display: inline;
-  margin-left: 8px;
-  margin-right: 8px;
-  color: var(--tc-secondary);
-}
-
-.categories > p:hover {
-  color: var(--tc-primary);
-}
- */
 
 .MuiButton-label > p {
   margin-left: 12px;
@@ -79,6 +67,9 @@
 }
 
 .nbSearch > input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
   font-size: 14px;
   color: var(--tc-secondary);
   border: none;
@@ -90,14 +81,16 @@
   align-items: center;
 }
 
-.nbRight > i > .icon {
+.iconCart {
   border-radius: 999px;
   margin-left: 40px;
+  vertical-align: middle;
   padding: 6px;
   cursor: pointer;
+  box-sizing: unset;
 }
 
-.nbRight > i > .icon:hover {
+.iconCart:hover {
   background-color: var(--c-shade);
 }
 

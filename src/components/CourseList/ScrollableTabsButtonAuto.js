@@ -8,6 +8,8 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import CourseItem from "../CourseItem";
 
+import Carousel from "react-elastic-carousel";
+
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
 
@@ -80,65 +82,79 @@ export default function ScrollableTabsButtonAuto() {
       </AppBar>
       <TabPanel value={value} index={0}>
         <div className="courseList__content">
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
+          <Carousel itemsToShow={1}>
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+          </Carousel>
         </div>
       </TabPanel>
       <TabPanel value={value} index={1}>
-      <div className="courseList__content">
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
+        <div className="courseList__content">
+          <Carousel itemsToShow={1}>
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+          </Carousel>
         </div>
       </TabPanel>
       <TabPanel value={value} index={2}>
-      <div className="courseList__content">
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
+        <div className="courseList__content">
+          <Carousel itemsToShow={1}>
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+          </Carousel>
         </div>
       </TabPanel>
       <TabPanel value={value} index={3}>
-      <div className="courseList__content">
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
+        <div className="courseList__content">
+          <Carousel itemsToShow={1}>
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+          </Carousel>
         </div>
       </TabPanel>
       <TabPanel value={value} index={4}>
-      <div className="courseList__content">
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
+        <div className="courseList__content">
+          <Carousel itemsToShow={1}>
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+          </Carousel>
         </div>
       </TabPanel>
       <TabPanel value={value} index={5}>
-      <div className="courseList__content">
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
+        <div className="courseList__content">
+          <Carousel itemsToShow={1}>
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+          </Carousel>
         </div>
       </TabPanel>
       <TabPanel value={value} index={6}>
-      <div className="courseList__content">
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
-          <CourseItem />
+        <div className="courseList__content">
+          <Carousel itemsToShow={1}>
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+            <CourseItem />
+          </Carousel>
         </div>
       </TabPanel>
     </div>

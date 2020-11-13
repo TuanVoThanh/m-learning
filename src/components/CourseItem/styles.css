@@ -1,71 +1,71 @@
 .courseItem__item {
-    width: 246px;
-    height: 286px;
-    background-color: #fafafa;
-    border-radius: 4px;
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
-    cursor: pointer;
-  }
-  .courseItem__item:hover{
-    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.48);
-  }
-  
-  .courseItem__item_image {
-    width: 100%;
-    border-top-right-radius: 4px;
-  }
-  
-  .courseItem__item_text {
-    margin: 0 var(--m-3);
-    margin-top: var(--m-2);
-    margin-bottom: var(--m-3);
-  }
-  
-  .courseItem__item_text_title {
-    font-weight: var(--fw-semibold);
-  }
-  
-  .courseItem__item_text_author {
-    font-size: var(--fs-tiny);
-    font-weight: var(--fw-semibold);
-    color: var(--tc-secondary);
-    margin: var(--m-1) 0;
-  }
-  
-  .courseItem__item_review {
-    margin: 0 var(--m-3);
-    display: flex;
-  }
-  
-  .courseItem__item_review_views {
-    font-size: var(--fs-tiny);
-    margin-left: var(--m-1);
-  }
-  
-  .courseItem__item_price {
-    margin: 0 var(--m-3);
-    display: flex;
-    align-items: center;
-  }
-  
-  .courseItem__item_price_default {
-    font-size: var(--fs-label);
-    margin-right: var(--m-3);
-    text-decoration: line-through;
-  }
-  
-  .courseItem__item_price_discount {
-    font-size: var(--fs-label);
-    font-weight: var(--fw-semibold);
-    color: var(--tc-highlight);
-  }
-  
-  .bestseller {
-    font-size: var(--fs-tiny);
-    font-weight: var(--fw-semibold);
-    margin-left: auto;
-    background-color: #ffc400;
-    padding: var(--p-1);
-    border-radius: 4px;
-  }
-  
+  width: 246px;
+  height: 286px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  margin: 0 8px;
+}
+.courseItem__item:hover {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.48);
+}
+
+.courseItem__item_image {
+  width: 100%;
+  border-top-right-radius: 4px;
+}
+
+.courseItem__item_text {
+  margin: 0 var(--m-3);
+  margin-top: var(--m-2);
+  margin-bottom: var(--m-3);
+}
+
+.courseItem__item_text_title {
+  font-weight: var(--fw-semibold);
+}
+
+.courseItem__item_text_author {
+  font-size: var(--fs-tiny);
+  font-weight: var(--fw-semibold);
+  color: var(--tc-secondary);
+  margin: var(--m-1) 0;
+}
+
+.courseItem__item_review {
+  margin: 0 var(--m-3);
+  display: flex;
+}
+
+.courseItem__item_review_views {
+  font-size: var(--fs-tiny);
+  margin-left: var(--m-1);
+}
+
+.courseItem__item_price {
+  margin: 0 var(--m-3);
+  display: flex;
+  align-items: center;
+}
+
+.courseItem__item_price_default {
+  font-size: var(--fs-label);
+  margin-right: var(--m-3);
+  text-decoration: line-through;
+}
+
+.courseItem__item_price_discount {
+  font-size: var(--fs-label);
+  font-weight: var(--fw-semibold);
+  color: var(--tc-highlight);
+}
+
+.bestseller {
+  font-size: var(--fs-tiny);
+  font-weight: var(--fw-semibold);
+  margin-left: auto;
+  background-color: #ffc400;
+  padding: var(--p-1);
+  border-radius: 4px;
+}
